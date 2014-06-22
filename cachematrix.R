@@ -1,4 +1,4 @@
-#Code for makeCacheMatrix fumction
+#Code for makeCacheMatrix fumction..
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getmatrix=getmatrix)
 }
 
-#Code for cacheSolve fumction
+#Code for cacheSolve fumction..
 cacheSolve <- function(x=matrix(), ...) {
   m<-x$getmatrix()
   if(!is.null(m)){
